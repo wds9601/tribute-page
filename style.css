@@ -1,0 +1,58 @@
+main {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+
+    --heading-font: 'Marcellus', serif;
+    --text-font: 'Montserrat', sans-serif;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#img-caption {
+    font-family: var(--text-font);
+    margin: 5px;
+}
+
+#img-div {
+    width: 90%;
+    height: auto;
+    background-color: silver;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#header {
+    font-family: var(--heading-font)
+}
+
+#info-container {
+    font-family: var(--text-font)
+}
+
+.info-heading {
+    font-family: var(--heading-font);
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+ol{
+    list-style-position: inside;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+    #image-div {
+        width: 100%;
+    }
+}
+
+
